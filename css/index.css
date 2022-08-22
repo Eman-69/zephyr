@@ -1,0 +1,739 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.div01{
+    background-image: url(../img/green_wallpaper.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.div02{
+    background-image: url(../img/blue\ -wallpaper.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.div03{
+    background-image: url(../img/blue_wall.jfif);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.div04{
+    background-image: url(../img/orange-wall2.jfif);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.div05{
+    background-image: url(../img/light_green_wall.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.div06{
+    background-image: url(../img/pink\ _wall.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.div07{
+    background-image: url(../img/violet_wa.jfif);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.div08{
+    background-image: url(../img/red_wall.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+/* ----------------------------------------------Main Div 1 ----------------------------------------------- */
+
+.div1{
+    height: 50px;
+    background-color: black;
+    overflow-y: hidden;
+}
+/* .div1::-webkit-scrollbar{
+    display: none;  
+} */
+.div1 img{
+    height: 40px;
+    width: 150px;
+    padding: 5px;
+    float: left;
+}
+.div1 nav{
+    padding-right: 10%;
+    float: right;
+    
+}
+.div1 a{
+    color: white;
+    font-size: 20px;
+    width: 90%;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.div1 a:hover{
+   background-color: gray;
+}
+.div1 li{
+    display: inline-block;
+}
+
+
+/* -----------------------------------------Main Div 2------------------------------------------------- */
+
+.div2{
+    height: 150px;
+    background-color: rgba(0, 0, 0,0.5);
+    overflow-y: hidden;
+}
+.div2 img{
+    height: 160px;
+    width: 200px;
+    float: left;
+}
+.div2 h1{
+    /* float: right; */
+    /* text-align: center; */
+    padding-left: 35%;
+    padding-top: 55px;
+    font-size: 60px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: -5px -5px 5px black;
+}
+.div2 h1:hover{
+    color: green;
+}
+
+
+
+/* ---------------------------------------------------Main Div 3--------------------------------------------------- */
+
+.div3{
+    height: 500px;
+    width: 80%;
+    background-color: rgba(0, 0, 0,0.6);
+    border-bottom-left-radius: 60px;
+    border-top-right-radius: 60px;
+    margin: 100px 0px;
+    /* margin: 100px 7%; */
+    padding: 40px;
+    overflow-x: hidden;
+}
+.div3::-webkit-scrollbar{
+    display: none;  
+}
+.div3 h2{
+    font-size: 40px;
+    color: white;
+    width: 100%;
+    text-align: left;
+    text-shadow: -5px -5px 5px black;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+    float: left;
+}
+.div3 p{
+    font-size: 20px;
+    color: azure;
+    float: left;
+    text-align: left;
+    width: 65%;
+}
+.div3 img{
+    height: 400px;
+    width: 30%;
+    /* float: right; */
+}
+
+/* -------------------------------------------------------Main Div 4------------------------------------------------------- */
+
+.div4{
+    height: 500px;
+    width: 80%;
+    background-color: rgba(0, 0, 0,0.6);
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    margin: 100px 0px;
+    /* margin: 100px 7%; */
+    padding: 40px;
+    overflow-x: hidden;
+}
+.div4::-webkit-scrollbar{
+    display: none;  
+}
+.div4 h2{
+    font-size: 40px;
+    color: white;
+    width: 100%;
+    text-align: left;
+    text-shadow: -5px -5px 5px black;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 15px;
+    float: left;
+}
+.div4 p{
+    font-size: 20px;
+    color: azure;
+    float: right;
+    text-align: left;
+    width: 65%;
+    margin: 0px 2%;
+}
+.div4 img{
+    height: 400px;
+    width: 30%;
+    i
+}
+
+/* ------------------------------------------------------Main Div 5------------------------------------------------------ */
+
+.div5{
+    margin: 50px 0px;
+    background-color: rgba(0, 0, 0,0.5);
+    width: 95%;
+    height: 1500px;
+    border-radius: 20px;
+    overflow-x: hidden;
+}
+.div5::-webkit-scrollbar{
+    display: none;  
+}
+.div5 h2{
+    font-size: 60px;
+    color: white;
+    text-shadow: -5px -5px 5px black;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 30px 0px;
+    
+}
+.div5 .div51{
+    width: 90%;
+    height: 1300px;
+    /* background-color: rgba(0, 0, 0,0.5); */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    /* margin-top: 30px; */
+    /* margin-bottom: 30px; */
+}
+.div5 .div51 .div511{
+    height: 400px;
+    width: 250px;
+    /* background: url(/55.jfif); */
+    border: 3px solid;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+    margin: 15px;
+}
+.div5 .div51 #div-1-511:hover{
+    background: url(../img/32.jfif);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-1-512:hover{
+    background: url(../img/07.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-1-513:hover{
+    background: url(../img/15.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-1-514:hover{
+    background: url(../img/77.png);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-1-515:hover{
+    background: url(../img/35.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-1-516:hover{
+    background: url(../img/15.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-1-517:hover{
+    background: url(../img/20.png);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-1-518:hover{
+    background: url(../img/07.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-1-519:hover{
+    background: url(../img/28.png);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-1-5110:hover{
+    background: url(../img/93.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-1-5111:hover{
+    background: url(../img/23.jfif);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 .div511 .m1{
+    height: 300px;
+}
+.div5 .div51 .div511 .d1{
+    height: 100px;
+    width: 250px;
+    background-color: white;
+    /* text-align: center; */
+}
+.div51 .div511 button{
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+}
+.div51 .div511 h3{
+    font-size: 20px;
+    padding: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* ---------------------------------------------------------Main div 6--------------------------------------------------------- */
+
+.div6{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    overflow-y: hidden;
+}
+.div6 p{
+    font-size: 15px;
+    color: grey;
+    padding: 20px;
+    /* padding: 30px 0px; */
+}
+.div6 p:hover{
+    color: white;
+}
+
+
+
+
+/* ---------------------------------------------- This code is Extenstion of "Main Div 5" ----------------------------------------------*/
+/* background image as number hover code */
+
+
+.div5 .div51 #div-2-511:hover{
+    background: url(../img/34.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-2-512:hover{
+    background: url(../img/5.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-2-513:hover{
+    background: url(../img/4.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-2-514:hover{
+    background: url(../img/28.png);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-2-515:hover{
+    background: url(../img/9.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-2-516:hover{
+    background: url(../img/12.jfif);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-2-517:hover{
+    background: url(../img/3.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-2-518:hover{
+    background: url(../img/64.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-2-519:hover{
+    background: url(../img/19.webp);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-2-5110:hover{
+    background: url(../img/88.png);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-2-5111:hover{
+    background: url(../img/21.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+.div5 .div51 #div-3-511:hover{
+    background: url(../img/58.png);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-3-512:hover{
+    background: url(../img/07.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-3-513:hover{
+    background: url(../img/6.png);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-3-514:hover{
+    background: url(../img/33.png);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-3-515:hover{
+    background: url(../img/30.png);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-3-516:hover{
+    background: url(../img/17.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-3-517:hover{
+    background: url(../img/20.png);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-3-518:hover{
+    background: url(../img/4.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-3-519:hover{
+    background: url(../img/5.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-3-5110:hover{
+    background: url(../img/18.jfif);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-3-5111:hover{
+    background: url(../img/10.jfif);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+.div5 .div51 #div-4-511:hover{
+    background: url(../img/32.jfif);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-4-512:hover{
+    background: url(../img/07.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-4-513:hover{
+    background: url(../img/19.webp);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-4-514:hover{
+    background: url(../img/93.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-4-515:hover{
+    background: url(../img/35.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-4-516:hover{
+    background: url(../img/15.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-4-517:hover{
+    background: url(../img/12.jfif);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-4-518:hover{
+    background: url(../img/07.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-4-519:hover{
+    background: url(../img/49.png);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-4-5110:hover{
+    background: url(../img/58.png);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-4-5111:hover{
+    background: url(../img/23.jfif);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+.div5 .div51 #div-5-511:hover{
+    background: url(../img/93.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-5-512:hover{
+    background: url(../img/22.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-5-513:hover{
+    background: url(../img/49.png);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-5-514:hover{
+    background: url(../img/34.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-5-515:hover{
+    background: url(../img/35.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-5-516:hover{
+    background: url(../img/95.png);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-5-517:hover{
+    background: url(../img/28.png);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-5-518:hover{
+    background: url(../img/23.jfif);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-5-519:hover{
+    background: url(../img/44.png);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-5-5110:hover{
+    background: url(../img/9.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-5-5111:hover{
+    background: url(../img/17.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+.div5 .div51 #div-6-511:hover{
+    background: url(../img/32.jfif);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-6-512:hover{
+    background: url(../img/07.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-6-513:hover{
+    background: url(../img/95.png);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-6-514:hover{
+    background: url(../img/64.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-6-515:hover{
+    background: url(../img/35.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-6-516:hover{
+    background: url(../img/15.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-6-517:hover{
+    background: url(../img/23.jfif);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-6-518:hover{
+    background: url(../img/07.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-6-519:hover{
+    background: url(../img/19.webp);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-6-5110:hover{
+    background: url(../img/88.png);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-6-5111:hover{
+    background: url(../img/23.jfif);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+.div5 .div51 #div-7-511:hover{
+    background: url(../img/32.jfif);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-7-512:hover{
+    background: url(../img/07.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-7-513:hover{
+    background: url(../img/21.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-7-514:hover{
+    background: url(../img/12.jfif);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-7-515:hover{
+    background: url(../img/35.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-7-516:hover{
+    background: url(../img/15.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-7-517:hover{
+    background: url(../img/10.jfif);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-7-518:hover{
+    background: url(../img/07.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-7-519:hover{
+    background: url(../img/9.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-7-5110:hover{
+    background: url(../img/20.png);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-7-5111:hover{
+    background: url(../img/23.jfif);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+.div5 .div51 #div-8-511:hover{
+    background: url(../img/58.png);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-8-512:hover{
+    background: url(../img/5.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-8-513:hover{
+    background: url(../img/12.jfif);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-8-514:hover{
+    background: url(../img/10.jfif);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-8-515:hover{
+    background: url(../img/5.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-8-516:hover{
+    background: url(../img/15.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-8-517:hover{
+    background: url(../img/6.png);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-8-518:hover{
+    background: url(../img/9.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-8-519:hover{
+    background: url(../img/18.jfif);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-8-5110:hover{
+    background: url(../img/77.png);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+.div5 .div51 #div-8-5111:hover{
+    background: url(../img/3.jpg);
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+}
+

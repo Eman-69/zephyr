@@ -196,6 +196,7 @@ body
 	border-radius: 10px;
 	background: rgba(255, 255, 255, 0.5);
 	box-shadow: 3px 3px 3px black;
+	text-shadow: 2px 2px 2px black;
 }
 .teamstable img
 {
@@ -206,8 +207,8 @@ body
 {
 	width: inherit;
 	text-decoration: none;
+	color: white;
 	height: inherit;
-	color: darkred;
 }
 .teamstable td:hover,.teamstable a:hover
 {
