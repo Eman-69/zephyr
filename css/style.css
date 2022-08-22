@@ -1,0 +1,221 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+body
+{
+	font-family: Arial,sans-serif;
+	background: black;
+	color: white;
+}
+.bg-pg
+{
+	background: url(../img/bg1.jpg);
+	height: 800px;
+	background-size: 100% 110%;
+	background-position: center;
+	text-align: center;
+	color: white;
+}
+.tabdiv
+{
+	/*background: rgba(67, 91, 15, 0.8);*/
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 0px 0px 10px 10px;
+	height: 60px;
+	padding-top: 30px;
+	font-size: 25px;
+
+}
+
+.tabdiv a
+{
+	margin: 10px 60px;
+	padding:5px 10px;
+	border-radius: 4px;
+	text-decoration: none;
+	text-shadow: 2px 2px 2px black;
+	color: inherit;
+
+}
+.tabdiv a:hover
+{
+	background: black;
+	box-shadow: 3px 3px 3px black,-3px -3px 3px black;
+
+}
+.bg-des
+{
+	position: absolute;
+	top: 200px;
+	left: 520px;
+}
+.bg-pg img
+{
+	width: 100px;
+}
+.bg-pg h1
+{
+	font-size: 50px;
+	margin: 20px;
+	text-shadow: 5px 5px 5px black;
+	line-height: 70px;
+}
+.contentbg
+{
+	background: url(../img/contentbg1.jpg);
+	background-size: 100% 100%;
+	padding: 100px 0px;
+
+}
+.content
+{
+	position: absolute;
+	top: 600px;
+	text-align: center;
+	width: 70%;
+	margin: 0px 15%;
+	padding: 15px 0px;
+	height: 300px;
+	background: rgba(0, 0, 0, 0.7);
+	border-radius: 20px;
+	overflow: hidden;
+}
+.content *
+{
+	margin: 10px;
+}
+.content p
+{
+	line-height: 30px;
+	font-size: 20px;
+}
+.abouthistory
+{
+	width: 80%;
+	margin: 100px 7%;
+	background: rgba(139, 0, 0, 0.75);
+	padding: 2%;
+	border-radius: 30px;
+
+}
+.abouthistory img
+{
+	height: 300px;
+	opacity: 0.8;
+}
+
+.aboutdiv,.historydiv
+{
+	display: flex;
+}
+.aboutdiv *,.historydiv *
+{
+	margin: 20px 0px;
+	padding: 1%;
+}
+.abouthistorytitle,.abouthistorytitle
+{
+	margin-left: 20px;
+}
+.aboutdiv p,.historydiv p
+{
+	line-height: 40px;
+}
+.champions
+{
+	background: url(../img/championbg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 50px 0px;
+}
+.championsmaintitle
+{
+	text-align: center;
+
+}
+.championsmaindiv
+{
+	background: white;
+	width: 80%;
+	margin: 100px 9% 0px;
+	color: black;
+	padding: 20px 1%;
+	display: flex;
+	border-radius: 30px 0px 30px 0px;
+	box-shadow: 5px 5px 5px black;
+}
+.championstitle
+{
+	margin: 30px;
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+}
+.championsdiv
+{
+
+	font-size: 30px;
+	margin: 10px 50px 10px;
+	text-align: center;
+}
+.championsimg
+{
+	height: 200px;
+}
+.championslogo
+{
+	height: 150px;
+}
+.teamsdiv
+{
+	background: url(../img/teamsbg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.teamstitle
+{
+	text-align: center;
+	padding: 50px 0px 20px;
+}
+.teamstable
+{
+	font-size: 30px;
+	width: 90%;
+	text-align: center;
+	margin: 0px 4%;
+	border-spacing: 50px;
+
+}
+.teamstable td
+{
+	text-align: left;
+	height: 60px;
+	width: 50%;
+	border-radius: 10px;
+	background: rgba(255, 255, 255, 0.5);
+	box-shadow: 3px 3px 3px black;
+}
+.teamstable img
+{
+	width: 30px;
+	margin: 0px 150px 0px 50px ;
+}
+.teamstable a
+{
+	width: inherit;
+	text-decoration: none;
+	height: inherit;
+	color: darkred;
+}
+.teamstable td:hover,.teamstable a:hover
+{
+	background: white;
+	color: pink;
+}
+.enddiv
+{
+	background: black;
+	height: 200px;
+}
